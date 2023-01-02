@@ -1,1 +1,0 @@
-working  with staticic files
