@@ -3,6 +3,7 @@
 def mul_tuple(yup):
     return yup[0] * yup[1]
 
+
 def weight_average(my_list=[]):
     if len(my_list) == 0:
         return 0
