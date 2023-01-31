@@ -1,11 +1,12 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 """
     1-rectangle.py
     Author: Oke Oladunsi Samuel
 """
 
 
-class rectangle:
+class Rectangle:
     """ A rectangle representation"""
 
     def __init__(self, width=0, height=0):
