@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 # -*- coding: utf-8 -*-
+
 """
     1-rectangle.py
     Author: Oke Oladunsi Samuel
