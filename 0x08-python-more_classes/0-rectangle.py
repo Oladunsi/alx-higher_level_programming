@@ -1,4 +1,5 @@
 #!/usrbin/python3
+# -*- coding: utf-8 -*-
 """
     CreatedOn: 1/31/2023 4:28AM
     By: Oke Oladunsi Samuel
