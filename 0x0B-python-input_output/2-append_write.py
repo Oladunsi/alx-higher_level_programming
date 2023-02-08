@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# 4-append_write.py
+# 2-append_write.py
 # Oke Oladunsi Samuel
 """Defines a file-appending function."""
 
