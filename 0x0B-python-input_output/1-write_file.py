@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 # 1-write_file.py
-# Oke Oladunsi Samuel 
+# Oke Oladunsi Samuel
 """Defines a text file line-counting function."""
 
 
