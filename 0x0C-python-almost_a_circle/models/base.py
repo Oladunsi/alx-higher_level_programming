@@ -5,6 +5,8 @@
 
 """A class that manage id attribute in all your future
         classes and to avoid duplicating the same code"""
+import json
+import csv
 
 
 class Base:
