@@ -1,5 +1,5 @@
 -- list the average temp order by city
-SELECT *
+SELECT `city`, AVG(`value`) AS `avg_temp`
 FROM `temperatures`
-ORDER BY `value` 
-LIMIT 5
+GROUP BY `city`
+ORDER BY `avg_temp` DESC;
