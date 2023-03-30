@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_postorder - this goes thru a tree using a postorder transversal
+ * binary_tree_height - this gets tree height
  * @tree: a pointer to the root node of the tree to transverse
  *
  * Returns: 0 if tree is null or size of tree
