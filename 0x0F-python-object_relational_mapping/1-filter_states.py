@@ -21,8 +21,8 @@ if __name__ == "__main__":
     db = MySQLdb.connect(host='localhost', user=username,
                          password=password, db=database_name, port=3306)
     cur = db.cursor()
-    num_rows = cur.execute('SELECT * FROM states \
-                           WHERE states.name like "N%" ORDER BY states.id;')
+    num_rows = cur.execute('SELECT * FROM `states` \
+                           WHERE `name` like "N%" ORDER BY `id`;')
     rows = cur.fetchall()
     for row in rows:
         print(row)
