@@ -23,7 +23,7 @@ if __name__ == "__main__":
                          password=password, db=database_name, port=3306)
     cur = db.cursor()
     num_rows = cur.execute("SELECT * FROM `states` \
-                           WHERE `name` = '{}';".format(state_name))
+                           WHERE BINARY `name` = '{}';".format(state_name))
     rows = cur.fetchall()
     for row in rows:
         print(row)
