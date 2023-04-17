@@ -22,10 +22,8 @@ if __name__ == "__main__":
     db = MySQLdb.connect(host='localhost', user=username,
                          password=password, db=database_name, port=3306)
     cur = db.cursor()
-    num_rows = cur.execute("SELECT * FROM states \
-                           WHERE states.name = '{}';".format(state_name))
+    num_rows = cur.execute("SELECT * FROM `states` \
+                           WHERE `name` = '{}';".format(state_name))
     rows = cur.fetchall()
     for row in rows:
         print(row)
-    cur.close
-    db.close
