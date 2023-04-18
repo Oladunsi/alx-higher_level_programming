@@ -14,7 +14,7 @@ Base = declarative_base()
 class State(Base):
     """Representation of state class in MySQL db
 
-    __tablename__: an representation of state TABLE in db
+    __tablename__: a representation of state TABLE in db
                   that stores State instances
     id (sqlalchemy.Integer): instance of state.id
     name (sqlalchemy.String): instance of state.name
