@@ -18,12 +18,7 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    status = False
     for state in session.query(State).order_by(State.id):
-        if state.name == sys.argv[4]:
-            status = True
-    
-    if status == True:
-        print("{}".format(state.id))
-    else:
-        print("Not found")
+        if "a" in state.name:
+            session.delete(state)
+    session.commit()
